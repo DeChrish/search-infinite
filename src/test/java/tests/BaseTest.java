@@ -34,7 +34,7 @@ public class BaseTest {
         } else {
             throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
     }
 
     @AfterMethod

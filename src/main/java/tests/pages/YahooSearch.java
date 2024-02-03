@@ -31,7 +31,6 @@ public class YahooSearch extends SearchPage {
     }
 
     public String getResultFirstLinkText() {
-        wait.until(ExpectedConditions.visibilityOf(resultFirstLink));
         logger.info("Search Result First Link Text  :   " + resultFirstLink.getText());
         return resultFirstLink.getText();
     }
