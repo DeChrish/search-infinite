@@ -1,5 +1,6 @@
 package tests.pages;
 
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import tests.utils.SearchPage;
 import org.openqa.selenium.Keys;

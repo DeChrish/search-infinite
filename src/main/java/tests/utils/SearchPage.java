@@ -20,9 +20,4 @@ public abstract class SearchPage extends BasePage {
         }
     }
 
-    public String getPageTitle() {
-        return driver.getTitle();
-    }
-
-
 }

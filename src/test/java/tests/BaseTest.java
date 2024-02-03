@@ -26,6 +26,7 @@ public class BaseTest {
         if ("chrome".equalsIgnoreCase(browser)) {
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
+            chromeOptions.addArguments("--headless");
             driver = new ChromeDriver(chromeOptions);
         } else if ("firefox".equalsIgnoreCase(browser)) {
             driver = new FirefoxDriver();
