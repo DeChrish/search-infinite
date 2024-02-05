@@ -13,3 +13,9 @@ mvn clean test -DsuiteXmlFile=<TestNG_XML_FILE>
 
 Report:
 allure serve allure-results
+
+Installtion Step:
+
+
+TODO:
+Screenshot attachment in Allur Report.
