@@ -1,7 +1,5 @@
-package tests.pages;
+package pages;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import tests.utils.SearchPage;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
