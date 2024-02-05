@@ -31,7 +31,7 @@ public class GoogleSearchTest
 
     @Test(dataProvider = "searchQueries",dataProviderClass = TestDataProviders.class)
     @Description("Test Description: Search scenario with valid search query")
-    @Story("Story Name: To check login page title 1")
+    @Story("Story Name: verify valid google search")
     public void verify_valid_search_results(String searchQuery) {
         googleSearch.openweb("https://www.google.com");
         googleSearch.waitForSync();
@@ -43,7 +43,7 @@ public class GoogleSearchTest
 
     @Test(dataProvider = "splCharQueries",dataProviderClass = TestDataProviders.class)
     @Description("Test Description: Search scenario with invalid search query")
-    @Story("Story Name: To check login page title 2")
+    @Story("Story Name: verify invalid google search")
     public void verify_invalid_search_results(String searchQuery) {
         googleSearch.openweb("https://www.google.com");
         googleSearch.waitForSync();
